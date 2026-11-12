@@ -1,0 +1,12 @@
+# Altium temporary files
+History/
+__Previews/
+**/History/
+**/__Previews/
+*.PrjPcbStructure
+*.PrjPcbVariants
+*.SchDocPreview
+*.PcbDocPreview
+*.LOG
+*.bak
+*.~*
