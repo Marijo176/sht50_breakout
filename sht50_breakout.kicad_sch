@@ -1865,121 +1865,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 52.07 17.78)
@@ -2120,24 +2005,6 @@
 		(uuid "19d64690-3b9d-42bd-8c19-c55f2b4d6626")
 	)
 	(junction
-		(at 118.11 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41a6ad82-520a-4bab-9fe2-f910e02ad3ac")
-	)
-	(junction
-		(at 175.26 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43d74fb1-e928-4f2e-903e-2b691e263277")
-	)
-	(junction
-		(at 29.21 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "978fc39a-bdd2-47bc-aa4a-25460dd65ade")
-	)
-	(junction
 		(at 72.39 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2211,16 +2078,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 50.8) (xy 124.46 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0edf6dac-9405-414a-bdaf-3c5584128bab")
-	)
-	(wire
-		(pts
 			(xy 68.58 83.82) (xy 68.58 92.71)
 		)
 		(stroke
@@ -2248,16 +2105,6 @@
 			(type default)
 		)
 		(uuid "18b019ff-fbc7-4234-880b-b14412741161")
-	)
-	(wire
-		(pts
-			(xy 175.26 58.42) (xy 175.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d1bb493-8a1d-418e-949e-e9ff6d700bf8")
 	)
 	(wire
 		(pts
@@ -2381,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 33.02) (xy 35.56 33.02)
+			(xy 27.94 33.02) (xy 35.56 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2451,16 +2298,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 33.02) (xy 29.21 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f234680-251e-4631-ab4d-d031bc1d654f")
-	)
-	(wire
-		(pts
 			(xy 54.61 82.55) (xy 54.61 92.71)
 		)
 		(stroke
@@ -2501,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 49.53) (xy 175.26 54.61)
+			(xy 175.26 49.53) (xy 175.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2558,6 +2395,16 @@
 			(type default)
 		)
 		(uuid "98656e34-345d-47eb-8bb1-09514b866de9")
+	)
+	(wire
+		(pts
+			(xy 223.52 34.29) (xy 233.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2aa4784-a967-4ad8-9263-b15e0eb48028")
 	)
 	(wire
 		(pts
@@ -2658,16 +2505,6 @@
 			(type default)
 		)
 		(uuid "c9956e47-c73e-45e2-9fd5-66870228cc55")
-	)
-	(wire
-		(pts
-			(xy 168.91 54.61) (xy 175.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce5e3f96-519a-42ca-b336-77b02408df95")
 	)
 	(wire
 		(pts
@@ -3254,7 +3091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "072282bf-15bb-4a24-8939-4c40f29349a4")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 66.04 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +3155,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3335,7 +3172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0972ae6a-e653-4db0-8c69-16904236d1d3")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR019"
 			(at 231.14 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3395,7 +3232,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3413,7 +3250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c6dac93-56f4-48fa-aff5-ed7d38bc3a5c")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR020"
 			(at 231.14 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3473,165 +3310,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 228.6 34.29 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "133f214a-617d-4b93-823c-dae8587667c9")
-		(property "Reference" "JP3"
-			(at 228.6 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 228.6 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 228.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 228.6 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8a5e3ed8-245a-4fa6-9955-2e98e12ade98")
-		)
-		(pin "2"
-			(uuid "247ea026-63fd-4506-8738-18ad84318c44")
-		)
-		(instances
-			(project "sht50_breakout"
-				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 168.91 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "149b6e73-68c0-4186-b06b-7430dcb1ca5b")
-		(property "Reference" "#FLG03"
-			(at 168.91 52.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 168.91 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 168.91 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ffda818-8136-4d41-9f42-464f6ad32351")
-		)
-		(instances
-			(project "sht50_breakout"
-				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#FLG03")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3649,7 +3328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18329687-7661-476c-bac8-ca8acb3f8d3c")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR07"
 			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -3709,7 +3388,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR01")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3727,7 +3406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "197384ed-4c25-4787-aaff-51bf81b4755f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR03"
 			(at 58.42 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3787,7 +3466,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR012")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -3804,7 +3483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26b17d08-632a-4a85-b8ce-b14e7eec7b7e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR05"
 			(at 72.39 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3864,86 +3543,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 124.46 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27582b88-d9f6-46b6-919d-88b58352c86d")
-		(property "Reference" "#FLG02"
-			(at 126.365 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 128.27 50.7999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 124.46 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d0617a0-92fa-4e77-98c1-f060b404ae88")
-		)
-		(instances
-			(project "sht50_breakout"
-				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#FLG02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3960,7 +3560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27ed23ee-0c8f-4cfb-ae74-9b2b0aa84913")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 227.33 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4021,7 +3621,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4039,7 +3639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29f364a5-d4f3-45ee-97c1-07fe678ae573")
-		(property "Reference" "JP1"
+		(property "Reference" "JP3"
 			(at 120.65 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4061,7 +3661,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 118.11 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4103,7 +3703,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "JP1")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -4120,7 +3720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30259c8b-55c3-47cc-bddd-62ed62ca18a6")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 190.5 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4180,7 +3780,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR019")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4196,7 +3796,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "343b4a17-22e5-49ef-b111-2fd83206090c")
 		(property "Reference" "J1"
 			(at 23.495 25.4 0)
@@ -4208,8 +3807,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 23.495 27.94 0)
+		(property "Value" "HEADER_4x1"
+			(at 26.924 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4218,7 +3817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 22.86 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4452,7 +4051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c9916a8-6392-4b75-a88f-f01cb4469dad")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 233.68 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4513,7 +4112,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4531,14 +4130,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44c537ac-5ac7-4d33-a018-c9f9c19b5ec8")
-		(property "Reference" "J2"
-			(at 238.125 64.77 0)
+		(property "Reference" "qwiick_SMD2"
+			(at 240.03 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
@@ -4600,7 +4200,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "J2")
+					(reference "qwiick_SMD2")
 					(unit 1)
 				)
 			)
@@ -4618,7 +4218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46c8eeee-c4e9-482c-94d7-bfc92857c64e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 31.75 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4679,7 +4279,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4696,7 +4296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f5a30c4-6096-4961-9766-1220dd454faa")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 56.388 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 58.42 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4760,7 +4360,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -4778,7 +4378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ac44199-1610-4bbe-a06a-ad5c93a3c372")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 190.5 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4838,7 +4438,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR020")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5018,7 +4618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82014c7a-2d4a-4031-9eb8-6aa40fc32848")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 175.26 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5078,7 +4678,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5096,14 +4696,15 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "825ed901-8ef3-45b0-9b02-8dc6d9e06c9b")
-		(property "Reference" "J3"
-			(at 238.125 41.91 0)
+		(property "Reference" "qwiick_SMD1"
+			(at 240.03 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
@@ -5165,7 +4766,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "J3")
+					(reference "qwiick_SMD1")
 					(unit 1)
 				)
 			)
@@ -5183,7 +4784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a3e9824-ea41-44b4-b76f-f27230fbf67d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR011"
 			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5243,7 +4844,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR06")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5431,7 +5032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92c06571-2ca2-46da-8364-8001122156fa")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 76.2 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5491,7 +5092,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5509,7 +5110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92dc43d0-9343-4390-8ab4-dbfdbbea8785")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 67.31 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5569,7 +5170,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5587,7 +5188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98f996fb-cf06-412f-a034-915eaffe2fbd")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 40.64 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5648,85 +5249,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 29.21 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a36b368f-2064-4cf5-808e-faa62de59910")
-		(property "Reference" "#FLG01"
-			(at 29.21 31.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 29.21 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "022ec939-2eb1-46e4-8cad-e79b052a5047")
-		)
-		(instances
-			(project "sht50_breakout"
-				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#FLG01")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5744,7 +5267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4634316-a8ac-4a5e-a2ee-a73878b99abf")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR08"
 			(at 99.06 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5804,7 +5327,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR02")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5997,7 +5520,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b493c83a-eb4b-404f-97d3-766fe852157b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR014"
 			(at 175.26 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6057,7 +5580,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR018")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6075,7 +5598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c724e41c-01e2-431b-8165-600bbebecb23")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR012"
 			(at 172.72 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6135,7 +5658,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR09")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6152,7 +5675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc3078e6-d302-42ea-88fa-412e1d77c5e2")
-		(property "Reference" "JP4"
+		(property "Reference" "JP2"
 			(at 70.358 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6174,7 +5697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm"
 			(at 72.39 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6216,7 +5739,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "JP4")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -6314,7 +5837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eef604dd-dc09-45e6-8d03-68c4544ce2bb")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 59.436 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6378,7 +5901,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6396,7 +5919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9ea1344-ca79-46fa-b023-4739e0d8e027")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 107.95 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6456,7 +5979,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
