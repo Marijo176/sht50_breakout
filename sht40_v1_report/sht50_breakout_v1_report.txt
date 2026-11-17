@@ -1,0 +1,56 @@
+PCB statistics report
+=====================
+- Date: 17/11/2026 20:37:10
+- Project: sht50_breakout
+- Board name: sht50_breakout
+
+Board
+-----
+- Width: 40.2504 mm
+- Height: 19.9207 mm
+- Area: 793.363 mm²
+- Front copper area: 150.546 mm²
+- Back copper area: 715.382 mm²
+- Min track clearance: 0.2000 mm
+- Min track width: 0.2000 mm
+- Min drill diameter: 0.3000 mm
+- Board stackup thickness: 1.6000 mm
+
+- Front footprint area: 288.291 mm²
+- Back footprint area: 28.032 mm²
+- Front component density: 36.34 %
+- Back component density: 3.53 %
+Pads
+----
+- Through hole: 4
+- SMD: 47
+- Connector: 0
+- NPTH: 4
+- Castellated: 0
+- Press-fit: 0
+
+Vias
+----
+- Through vias: 18
+- Blind vias: 0
+- Buried vias: 0
+- Micro vias: 0
+
+Components
+----------
+
+|              | Front Side | Back Side | Total |
+|--------------|------------|-----------|-------|
+|THT:          |          1 |         0 |     1 |
+|SMD:          |         13 |         0 |    13 |
+|Unspecified:  |          7 |         0 |     7 |
+|Total:        |         21 |         0 |    21 |
+
+Drill holes
+-----------
+
+| Count | Shape |    X Size |    Y Size | Plated | Via/Pad | Start Layer | Stop Layer |
+|-------|-------|-----------|-----------|--------|---------|-------------|------------|
+|    18 | Round | 0.3000 mm | 0.3000 mm |    PTH |     Via |        F.Cu |       B.Cu |
+|     4 | Round | 2.1000 mm | 2.1000 mm |   NPTH |     Pad |        F.Cu |       B.Cu |
+|     4 | Round | 1.0000 mm | 1.0000 mm |    PTH |     Pad |        F.Cu |       B.Cu |
