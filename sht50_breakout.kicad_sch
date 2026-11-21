@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "0b50b92f-53c1-41fd-afdb-cd7c330b14f4")
 	(paper "A4")
+	(title_block
+		(title "SHT40 I2C Breakout")
+		(date "2026-11-21")
+		(rev "1.1")
+		(company "Marijo Maric")
+		(comment 1 "5V in, I2C level-shifted to 3.3V")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -1966,6 +1973,18 @@
 		)
 	)
 	(rectangle
+		(start 41.91 132.08)
+		(end 67.31 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "02715b96-9050-410b-bade-cd601ae385b8")
+	)
+	(rectangle
 		(start 52.07 17.78)
 		(end 133.35 60.96)
 		(stroke
@@ -2047,6 +2066,16 @@
 		)
 		(uuid "3b553c3a-1611-41fe-afc4-3c793b11dd87")
 	)
+	(text "Leave open if \n3.3V comes from qwiic"
+		(exclude_from_sim no)
+		(at 120.904 59.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "611aeb17-d06d-46ee-81b1-d907206abc92")
+	)
 	(text "3.3 VOLTAGE REGULATOR"
 		(exclude_from_sim no)
 		(at 92.71 20.32 0)
@@ -2056,6 +2085,16 @@
 			)
 		)
 		(uuid "66b49533-368d-4de6-a3e2-677fecdbdb88")
+	)
+	(text "MOUNTING HOLES"
+		(exclude_from_sim no)
+		(at 55.372 134.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "71960c66-3206-4995-8269-8e121ad118d0")
 	)
 	(text "QWIIC CONNECTORS"
 		(exclude_from_sim no)
@@ -4305,7 +4344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44c537ac-5ac7-4d33-a018-c9f9c19b5ec8")
-		(property "Reference" "qwiick_SMD2"
+		(property "Reference" "J3"
 			(at 240.03 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4316,7 +4355,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 238.125 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4375,7 +4414,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "qwiick_SMD2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4871,7 +4910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "825ed901-8ef3-45b0-9b02-8dc6d9e06c9b")
-		(property "Reference" "qwiick_SMD1"
+		(property "Reference" "J2"
 			(at 240.03 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4882,7 +4921,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 238.125 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4941,7 +4980,7 @@
 		(instances
 			(project "sht50_breakout"
 				(path "/0b50b92f-53c1-41fd-afdb-cd7c330b14f4"
-					(reference "qwiick_SMD1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5845,7 +5884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SHT4x"
+		(property "Value" "SHT40"
 			(at 179.07 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
